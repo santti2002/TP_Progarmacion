@@ -1,0 +1,68 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+//funciones
+void alta_esp_medicas(){
+	/*
+	Propocito: crear agregar una especialidad medica
+	Parametros:codigo id, nombre, descripcion(opcional)
+	Retorno: retorna otra especialidad como dato tipo char pero por ahora no retorna nada
+	*/
+}
+
+
+void baja_esp_medicas (){
+
+}
+
+/*
+Propocito:
+
+Parametros:
+
+Retorno:
+*/
+int main() {
+
+	//inicializacion de variables:
+	int opcion=0, primeropcion=0, segunopcion=0, terceopcion=0;
+
+
+	cout<<"bienvenido al sistema de la Salud+ "<<endl;
+	cout<<"1. Administrar Especialidades Medidcas "<<endl;
+	cout<<"2. Administrar Pacientes "<<endl;
+	cout<<"3. Administrar Turnos "<<endl;
+	cout<<"4. Salir "<<endl;
+	cout<<"seleccione el numero de la opcion que desea ingresar "<<endl;
+	cin>>opcion;
+
+	switch(opcion){
+	   case 1:/*llama a la funcion de administar especialidades medicas*/
+	   cout<<"1. Alta de Especialidades Medicas "<<endl;
+	   cout<<"2. Modificacion de Especialidades Medicas "<<endl;
+	   cout<<"3. Baja de Especialidades Medicas "<<endl;
+	   cout<<"4. Listado de3 Especialidades Medicas "<<endl;
+	   cout<<"5. Menu Principal"<<endl;
+	   cout<<"seleccione el numero de la opcion que desea ingresar "<<endl;
+	   cin>>primeropcion;
+
+	   switch(primeropcion){
+			case 1: ;
+			case 2: ;
+			case 3: ;
+			case 4:
+			cout<<"busqueda "<<endl;
+			cout<<"completo "<<endl;
+
+			;
+			case 5: ;
+	   } ;
+
+	   case 2:/*llama a la funcion*/ ;
+	   case 3:/*llama a la funcion*/ ;
+	   case 4:/*sale del switch*/ break ;
+	}
+
+  return 0;
+}
